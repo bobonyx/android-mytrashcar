@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Silver"
+    android:padding="@dimen/p010">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+        <TextView
+            android:id="@+id/city_t001"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/city_t001"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <Spinner
+            android:id="@+id/city_s001"
+            style="@android:style/Widget.Spinner.DropDown"
+            android:layout_width="130dp"
+            android:layout_height="40dp"
+            android:drawSelectorOnTop="true"
+            android:entries="@array/city_a001"
+            android:prompt="@string/city_s001"
+            android:spinnerMode="dialog"
+            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+
+        <Spinner
+            android:id="@+id/city_s002"
+            style="@android:style/Widget.Spinner.DropDown"
+            android:layout_width="145dp"
+            android:layout_height="40dp"
+            android:drawSelectorOnTop="true"
+            android:entries="@array/area_a001"
+            android:prompt="@string/city_s002"
+            android:spinnerMode="dialog"
+            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+        <ImageButton
+            android:id="@+id/gs_search001"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-5dp"
+            android:layout_marginEnd="-8dp"
+            android:background="#00000000"
+            android:contentDescription="@string/todo"
+            android:visibility="visible"
+            app:srcCompat="@android:drawable/ic_search_category_default"
+            tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck,ImageContrastCheck" />
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/gs_tab01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="37dp"
+        android:background="@color/Lime">
+
+        <TextView
+            android:id="@+id/gs_t001"
+            android:layout_width="50sp"
+            android:layout_height="wrap_content"
+            android:text="@string/t001"
+            tools:ignore="TextContrastCheck" />
+
+        <TextView
+            android:id="@+id/gs_t002"
+            android:layout_width="70sp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10sp"
+            android:text="@string/t002"
+            tools:ignore="TextContrastCheck" />
+
+        <TextView
+            android:id="@+id/gs_t003"
+            android:layout_width="70sp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10sp"
+            android:text="@string/t003"
+            tools:ignore="TextContrastCheck" />
+
+        <TextView
+            android:id="@+id/gs_t004"
+            android:layout_width="60sp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10sp"
+            android:text="@string/t004"
+            tools:ignore="TextContrastCheck" />
+
+        <TextView
+            android:id="@+id/gs_t005"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30sp"
+            android:text="@string/t005"
+            tools:ignore="TextContrastCheck" />
+
+    </TableRow>
+
+    <ListView
+        android:id="@+id/gs_list001"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignStart="@+id/gs_tab01"
+        android:layout_alignTop="@+id/gs_tab01"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="20dp">
+
+    </ListView>
+
+</RelativeLayout>

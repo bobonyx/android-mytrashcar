@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/CH21-googleplay.iml" filepath="$PROJECT_DIR$/.idea/modules/CH21-googleplay.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/mytrashcar/CH21-googleplay.mytrashcar.iml" filepath="$PROJECT_DIR$/.idea/modules/mytrashcar/CH21-googleplay.mytrashcar.iml" />
+    </modules>
+  </component>
+</project>

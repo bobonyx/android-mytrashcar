@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="t001">車號</string>
+    <string name="t002">時間</string>
+    <string name="t003">地區</string>
+    <string name="t004">座標X</string>
+    <string name="t005">座標Y</string>
+    <string name="t011">路線</string>
+    <string name="t012">清運區</string>
+    <string name="t013">清運站</string>
+    <string name="t014">清運時間</string>
+    <string name="t015">資源回收車收運時間</string>
+    <string name="t077">施工中</string>
+
+    <string name="t022">清潔公車停置地點</string>
+    <string name="t023">預計時間</string>
+    <string name="t024">清運日</string>
+    <string name="t025">回收日</string>
+
+    <string name="t_title">縣市觀測點細懸浮微粒狀態更新時間</string>
+    <string name="city_t001">清運區域</string>
+    <string name="city_s002">選擇鄉鎮區</string>
+    <string name="city_s001">選擇縣市</string>
+    <string name="data_amount">多少資料</string>
+    <string-array name="city_a001">
+        <item>台中市</item>
+        <item>澎湖縣</item>
+        <item>新竹市</item>
+    </string-array>
+    <string-array name="area_a001">
+        <item>選擇區域</item>
+        <item>中西區</item>
+        <item>東區</item>
+        <item>南區</item>
+        <item>西區</item>
+        <item>北區</item>
+        <item>北屯</item>
+        <item>西屯區</item>
+        <item>南屯區</item>
+        <item>太平區</item>
+        <item>大里區</item>
+        <item>霧峰區</item>
+        <item>烏日區</item>
+        <item>豐原區</item>
+        <item>后里區</item>
+        <item>石岡區</item>
+        <item>東勢區</item>
+        <item>和平區</item>
+        <item>新社區</item>
+        <item>潭子區</item>
+        <item>大雅區</item>
+        <item>神岡區</item>
+        <item>大肚區</item>
+        <item>沙鹿區</item>
+        <item>龍井區</item>
+        <item>梧棲區</item>
+        <item>清水區</item>
+        <item>大甲區</item>
+        <item>外埔區</item>
+        <item>大安區</item>
+    </string-array>
+
+    <string-array name="area_a002">
+        <item>選擇區域</item>
+        <item>萬里區</item>
+        <item>金山區</item>
+        <item>板橋區</item>
+        <item>汐止區</item>
+        <item>深坑區</item>
+        <item>石碇區</item>
+        <item>瑞芳區</item>
+        <item>平溪區</item>
+        <item>雙溪區</item>
+        <item>貢寮區</item>
+        <item>新店區</item>
+        <item>坪林區</item>
+        <item>烏來區</item>
+        <item>永和區</item>
+        <item>中和區</item>
+        <item>土城區</item>
+        <item>三峽區</item>
+        <item>樹林區</item>
+        <item>鶯歌區</item>
+        <item>三重區</item>
+        <item>新莊區</item>
+        <item>泰山區</item>
+        <item>林口區</item>
+        <item>蘆洲區</item>
+        <item>五股區</item>
+        <item>八里區</item>
+        <item>淡水區</item>
+        <item>三芝區</item>
+        <item>石門區</item>
+    </string-array>
+
+    <string-array name="area_a003">
+        <item>西嶼鄉</item>
+    </string-array>
+
+    <string-array name="area_a004">
+        <item>選擇路段</item>
+        <item>光復路</item>
+        <item>關東路</item>
+        <item>新庄街</item>
+        <item>長春街</item>
+        <item>埔頂路</item>
+        <item>園後街</item>
+        <item>忠孝路</item>
+        <item>公園路</item>
+        <item>八德路</item>
+        <item>武陵路</item>
+        <item>湳雅街</item>
+        <item>鐵道路</item>
+        <item>金竹路</item>
+        <item>光華街</item>
+        <item>田美一街</item>
+        <item>田美三街</item>
+        <item>光華南街</item>
+        <item>田美二街</item>
+        <item>光華東街</item>
+        <item>國華街</item>
+        <item>學府路</item>
+        <item>水源街</item>
+        <item>大學路</item>
+        <item>科學園路</item>
+        <item>民有二街</item>
+        <item>民享街</item>
+        <item>民有一街</item>
+        <item>民有街</item>
+        <item>民享一街</item>
+        <item>民有街</item>
+        <item>民有街</item>
+        <item>愛民街</item>
+        <item>裕民街</item>
+        <item>民治街</item>
+        <item>公道五二段</item>
+        <item>金山街</item>
+        <item>金山東街</item>
+        <item>金山</item>
+        <item>綠水路</item>
+        <item>和平路</item>
+        <item>國光街</item>
+        <item>中華路</item>
+        <item>東明街</item>
+        <item>東光路</item>
+        <item>東園街</item>
+        <item>千甲路</item>
+        <item>水利路</item>
+        <item>原興路</item>
+        <item>溪州路</item>
+        <item>民權路</item>
+        <item>經國路</item>
+        <item>溪埔路</item>
+        <item>成功路</item>
+
+
+    </string-array>
+
+    <string-array name="area_a005">
+        <item>選擇區域</item>
+        <item>宜蘭市</item>
+        <item>羅東鎮</item>
+        <item>蘇澳鎮</item>
+        <item>頭城鎮</item>
+        <item>礁溪鄉</item>
+        <item>壯圍鄉</item>
+        <item>員山鄉</item>
+        <item>冬山鄉</item>
+        <item>五結鄉</item>
+        <item>三星鄉</item>
+        <item>大同鄉</item>
+        <item>南澳鄉</item>
+    </string-array>
+
+    <string name="menu_setting">個人設定</string>
+    <string name="menu_notify">通知設定</string>
+    <string name="menu_fb">FB粉絲專頁</string>
+    <string name="menu_logout">登出</string>
+    <string name="menu_member">關於組員</string>
+    <string name="menu_member_message">第一組組員:</string>
+    <string name="menu_message">是否開啟通知</string>
+    <string name="menu_ok">是</string>
+    <string name="menu_no">否</string>
+
+
+    <string name="prompt_select_location">請選擇地點</string>
+    <string name="prompt_select_map_type">請選擇地圖模式</string>
+    <string name="item01">切換圖示</string>
+    <string name="menu_search">查看垃圾車位置</string>
+    <string name="descr">圖片</string>
+
+</resources>

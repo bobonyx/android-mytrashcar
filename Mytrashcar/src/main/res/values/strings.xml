@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">垃圾車小幫手</string>
+    <string name="todo">TODO</string>
+    <string name="action_settings">結束</string>
+    <string name="title_activity_m1901">垃圾車小幫手</string>
+    <string name="title_activity_trashcar_maps">TrashcarMapsActivity</string>
+</resources>
